@@ -67,7 +67,7 @@ export default function Quiz() {
                 <li key={i}>
                   <button
                     onClick={() => handleOptionSelect(option)}
-                    className={`w-full px-4 py-2 border rounded ${
+                    className={`w-full px-4 py-2 border rounded cursor-pointer ${
                       selectedOption === option
                         ? "bg-blue-500 text-white"
                         : "bg-white text-black border-gray-300"
